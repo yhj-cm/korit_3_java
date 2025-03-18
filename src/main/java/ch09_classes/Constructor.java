@@ -39,4 +39,29 @@ public class Constructor {
         // 속성/매개변수 (같은 개념이 아님)
     }
 
+    //String title을 매개변수로 하는 생성자를 정의하고,
+    //RequiredArgsConstructor(String 매개변수를 필수로 요구하는 생성자)라는 안내문을 출력할 수 있도록 작성한 뒤
+    //ConstructorMain으로 가셔서 constructor4라는 객체명을 지니고, title에 "여러분이름"으로 지어 객체를 생성한 후,
+    //System.out.println(Constructor4.name)을 입력하여 콘솔에 여러분 이름을 출력하시오
+
+    Constructor(String title) {
+        this.name = title;
+
+    }
+
+    // 두 개 이상의 매개변수를 지니는 생성자
+    Constructor(int num, String name) {
+        this.num = num;
+        this.name = name;
+        System.out.println("ALlArgsConstructor(int num,String name)");
+    }
+
+
+
+    //method를 정의
+
+     void showInfo() {
+         System.out.println("이 객체의 num값 : " + num);
+         System.out.println("이 객체의 name값 : " + name);
+    }
 }
