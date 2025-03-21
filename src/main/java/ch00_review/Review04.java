@@ -9,32 +9,32 @@ public class Review04 {
 
 
 
-//        for (int i = 0; i < limitnumber; i++) {
-//        //     System.out.println(i + " ");
-//            // 여기 내부에 if문을 써서 1부터 limitnumber까지의 숫자 중
-//            // 짝수만 뽑아낼 수 있도록 하는 조건문을 작성하세요
-//            int addedI = i+1;
-//            if ( addedI % 2 == 0 ) {
-//                System.out.println(addedI + " ");
-//
-//            }
-//
-//        }
+        for (int i = 0; i < limitnumber; i++) {
+        //     System.out.println(i + " ");
+            // 여기 내부에 if문을 써서 1부터 limitnumber까지의 숫자 중
+            // 짝수만 뽑아낼 수 있도록 하는 조건문을 작성하세요
+            int addedI = i+1;
+            if ( addedI % 2 == 0 ) {
+                System.out.println(addedI + " ");
+
+            }
+
+        }
 
         /*
         이상의 코드를 응용할겁니다. while문으로 개조할겁니다.
         근데 짝수말고 홀수가 출력되도록 작성하시오
          */
-        for (int i = 0; i < limitnumber; i++) {
-            while (i % 2 == 1) {
-                i++;
-            }
-            System.out.println(i + 1);
-
-        }
-
-
-        Scanner scanner = new Scanner(System.in);
+//        for (int i = 0; i < limitnumber; i++) {
+//            while (i % 2 == 1) {
+//                i++;
+//            }
+//            System.out.println(i + 1);
+//
+//        }
+//
+//
+//        Scanner scanner = new Scanner(System.in);
 
 
         //사용할 변수 목록
@@ -45,7 +45,7 @@ public class Review04 {
         double score = 0;
 
         System.out.println("학생의 수는 몇 명인가요? >>> ");
-        numOfstudent = scanner.nextInt();
+//        numOfstudent = scanner.nextInt();
 
         /*
             이상과 같은 코드라인이 있을 때 sum /avg는 아직 사용되지도 않았는데
@@ -76,21 +76,21 @@ public class Review04 {
 //        System.out.println("총합 : " + sum);
 //        avg = sum / numOfstudent;
 //        System.out.println("평균 : " + avg);
-
-        for (int i = 0; i < numOfstudent ; i++) {
-            System.out.println("시험 점수를 입력하세요 >>> ");
-            score = scanner.nextDouble();
-            if ( score < 0 || score > 100 ) {
-                System.out.println("불가능한 점수 입력입니다.");
-                System.out.println("종료합니다. 처음부터 다시 입력하세요");
-                break;  //그러면 반복문 바로 종료
-            }
-            sum += score;
-
-        }
-        System.out.println("총합 : " + sum);
-        avg = sum / numOfstudent;
-        System.out.println("평균 : " + avg);
+//
+//        for (int i = 0; i < numOfstudent ; i++) {
+//            System.out.println("시험 점수를 입력하세요 >>> ");
+//            score = scanner.nextDouble();
+//            if ( score < 0 || score > 100 ) {
+//                System.out.println("불가능한 점수 입력입니다.");
+//                System.out.println("종료합니다. 처음부터 다시 입력하세요");
+//                break;  //그러면 반복문 바로 종료
+//            }
+//            sum += score;
+//
+//        }
+//        System.out.println("총합 : " + sum);
+//        avg = sum / numOfstudent;
+//        System.out.println("평균 : " + avg);
 
 
 
