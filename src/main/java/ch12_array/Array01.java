@@ -39,6 +39,13 @@ public class Array01 {
         for(i = 0; i < strArr1.length; i++) {
             System.out.print(strArr1[i] + "/");
         }
+        int[] arr03 = new int[10]; // 비어있는 배열을 선언
+        // 초기화를 하려면 어떻게 해야 하나
+        arr03[0] = 0;
+        arr03[1] = 0;
+        arr03[2] = 0;
+        arr03[3] = 0;
+        arr03[4] = 0;
 
 
 
