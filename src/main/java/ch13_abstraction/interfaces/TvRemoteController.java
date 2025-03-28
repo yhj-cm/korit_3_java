@@ -5,9 +5,5 @@ public class TvRemoteController {
     private ChannelDownButton channelDownButton;
     private ChannelUpButton channelUpButton;
 
-    public TvRemoteController(PowerButton powerButton, ChannelDownButton channelDownButton, ChannelUpButton channelUpButton) {
-        this.powerButton = powerButton;
-        this.channelDownButton = channelDownButton;
-        this.channelUpButton = channelUpButton;
+
     }
-}
