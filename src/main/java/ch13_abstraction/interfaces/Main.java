@@ -30,7 +30,7 @@ public class Main {
         // 기본적으로 TvRemoteController의 일부 기능으로 사용하기 위해 field로 쓰겠다
 
         tvRemoteController.onPressedVolumeUpButton();
-        tvRemoteController.onUpVoulmeUpButton();
+        tvRemoteController.onUpVolumeUpButton();
 
         /*
             과제 TempDownButton, TempUpButton, ACController 파일을 생성하고
